@@ -6,6 +6,7 @@ VOLUME ${WORKDIR}
 WORKDIR ${WORKDIR}
 
 RUN apk add -U nodejs
+RUN apk add -U git
 RUN rm -rf /var/cache/apk/*
 
 
