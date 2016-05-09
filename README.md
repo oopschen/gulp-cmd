@@ -15,3 +15,8 @@ A docker images eases the use of gulp enviroment
 # Dependencies
 
 * alpine 3.3
+
+# Usage
+<code>
+docker run --rm -it -v $(pwd):/mnt/gulp-work oopschen/gulp-cmd npm install && gulp [goals]
+</code>
