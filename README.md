@@ -18,5 +18,5 @@ A docker images eases the use of gulp enviroment
 
 # Usage
 <code>
-docker run --rm -it -v $(pwd):/mnt/gulp-work oopschen/gulp-cmd npm install && gulp [goals]
+docker run --rm -it -v $(pwd):/mnt/gulp-work oopschen/gulp-cmd [goals]
 </code>
